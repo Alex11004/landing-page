@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f2f9ff;
+  color: #333;
+}
+
+/* Header */
+.header {
+  overflow: hidden; /* para contener los floats */
+  padding: 20px 40px;
+}
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.texto {
+  float: left;
+  margin-left: 10px;
+}
+
+.texto h1 {
+  font-size: 30px;
+  line-height: 50px; /* mismo alto que el logo */
+}
+
+.nav {
+  float: right;
+  margin-top: 20px;
+}
+
+.nav a:hover {
+  color: #333;
+}
+
+.nav a {
+  margin-left: 100px;
+  text-decoration: none;
+  color: #8f8f8f;
+  font-size: 20px;
+}
+
+.nav .btn {
+  background-color: #4aaeff;
+  color: white;
+  padding: 15px 26px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.nav .btn:hover {
+  color: white;
+}
+
+.btn:hover {
+  background-color: #0075d5;
+}
+
+/* Hero section */
+.hero {
+  overflow: hidden;
+  padding: 200px 300px;
+}
+
+.hero-texto {
+  float: left;
+  width: 50%;
+}
+
+.hero-texto h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.hero-texto p {
+  margin-bottom: 50px;
+  color: #666;
+  font-size: 20px;
+}
+
+.hero-texto .btngrande {
+  background-color: #4aaeff;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px 24px;
+  border-radius: 15px;
+}
+
+.btngrande:hover {
+  background-color: #0075d5;
+}
+
+.hero-imagen {
+  float: right;
+  width: 800px;
+  text-align: center;
+  margin-top: -500px;
+  margin-right: -130px;
+}
+
+.hero-imagen img {
+  max-width: 100%;
+  height: auto;
+}
